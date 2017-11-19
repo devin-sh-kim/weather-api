@@ -33,6 +33,6 @@ dependencies {
 	compile('org.apache.commons:commons-lang3:3.4')
 	compile('org.apache.httpcomponents:httpclient:4.5.3')
 	runtime('mysql:mysql-connector-java:5.1.42')
-	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
+//	providedRuntime('org.springframework.boot:spring-boot-starter-tomcat')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }

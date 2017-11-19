@@ -17,7 +17,7 @@ public class WeatherRestController {
     private WeatherService weatherService;
 
     @GetMapping("now")
-    public WeatherInfo get(@RequestParam String location) {
+    public WeatherInfo now(@RequestParam String location) {
 
         WeatherInfo weatherInfo = weatherService.getWeatherInfo(location);
 
