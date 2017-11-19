@@ -10,13 +10,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 
 @RestController
-@RequestMapping("weather")
+@RequestMapping("api")
 public class WeatherRestController {
 
     @Autowired
     private WeatherService weatherService;
 
-    @GetMapping
+    @GetMapping("now")
     public WeatherInfo get(@RequestParam String location) {
 
         WeatherInfo weatherInfo = weatherService.getWeatherInfo(location);
