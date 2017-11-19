@@ -1,0 +1,97 @@
+{
+  "response": {
+    "header": {
+      "resultCode": "0000",
+      "resultMsg": "OK"
+    },
+    "body": {
+      "items": {
+        "item": [
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "LGT",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 0
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "PTY",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 0
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "REH",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 55
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "RN1",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 0
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "SKY",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 3
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "T1H",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 2.1
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "UUU",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": -0.4
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "VEC",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 8
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "VVV",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": -3.3
+          },
+          {
+            "baseDate": 20171119,
+            "baseTime": "0600",
+            "category": "WSD",
+            "nx": 56,
+            "ny": 66,
+            "obsrValue": 3.4
+          }
+        ]
+      },
+      "numOfRows": 10,
+      "pageNo": 1,
+      "totalCount": 10
+    }
+  }
+}
